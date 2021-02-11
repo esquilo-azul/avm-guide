@@ -2,4 +2,4 @@
 locale: pt-BR
 test:
   command: avm local-project eac-asciidoctor-base0 build
-version: 0.0.0
+version: 0.1.0
