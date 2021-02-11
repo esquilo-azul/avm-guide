@@ -1,3 +1,5 @@
+:stylesheet: adoc-colony.css
+
 = Guia AVM =
 Eduardo H. Bogoni <eduardobogoni@gmail.com>
 :Author Initials: EHB
