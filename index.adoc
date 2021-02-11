@@ -1,7 +1,7 @@
 = Guia AVM =
 Eduardo H. Bogoni <eduardobogoni@gmail.com>
 :Author Initials: EHB
-:toc:
+:toc: left
 :icons:
 :numbered:
 :website: https://avm.esquiloazul.com.br
