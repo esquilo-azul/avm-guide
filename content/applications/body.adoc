@@ -1,7 +1,7 @@
 //#header
 
-[#app]
-== Aplicação [app]
+[#application]
+== Aplicação [application]
 
 Um recurso utilizável que é criado a partir da organização de "fontes".
 
