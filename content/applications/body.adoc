@@ -40,8 +40,8 @@ Exemplos:
 - `/usr/bin/avm-tools` (Um executável na estação de trabalho local);
 - https://redmine.esquiloazul.tech (Um sítio web acessível pela Internet).
 
-[#app-stype]
-== Estereótipo de aplicação [app-stype]
+[#application-stereotype]
+== Estereótipo de aplicação [application-stereotype]
 
 Um conjunto de definições reutilizáveis que se aplicam a qualquer subconjunto de uma aplicação.
 
