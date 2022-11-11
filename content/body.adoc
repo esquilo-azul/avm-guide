@@ -1,53 +1,5 @@
 //#header
 
-== Aplicações
+== Índice
 
-[#app]
-=== Aplicação [app]
-
-Um recurso utilizável que é criado a partir da organização de "fontes".
-
-IMPORTANT: Não é equivalente à definição comum de "programa de computador" (Ex.:
-https://en.wikipedia.org/wiki/Application_software).
-
-Exemplos:
-
-- Um programa de computador;
-- Um livro;
-- Uma página web;
-- Um álbum de fotos.
-- AVM Tools (https://redmine.esquiloazul.com.br/projects/avm-tools)
-- AVM Redmine (https://redmine.esquiloazul.com.br/projects/avm-redmine)
-
-[#app-src]
-=== Fonte de aplicação [app-src]
-
-O material manipulável que é utilizado para construir a aplicação.
-
-IMPORTANT: Não é equivalente à definição comum de "código-fonte" (Ex.:
-https://en.wikipedia.org/wiki/Source_code).
-
-Exemplos:
-
-- https://github.com/esquilo-azul/avm-tools.git (Um repositório Git);
-- `/home/myuser/projects/avm-redmine` (Código-fonte no sistema de arquivos local).
-
-[#app-inst]
-=== Instância de aplicação [app-inst]
-
-Uma cópia funcional e bem identificada do produto gerado pela construção da aplicação.
-
-Exemplos:
-
-- `/usr/bin/avm-tools` (Um executável na estação de trabalho local);
-- https://redmine.esquiloazul.tech (Um sítio web acessível pela Internet).
-
-[#app-stype]
-=== Estereótipo de aplicação [app-stype]
-
-Um conjunto de definições reutilizáveis que se aplicam a qualquer subconjunto de uma aplicação.
-
-Exemplos:
-
-- Ruby on Rails application (Uma aplicação que utiliza o framework Ruby on Rails);
-- EacRedmineBase0 (Um Redmine com características específicas para a E.A.C.).
+//#child_docs
