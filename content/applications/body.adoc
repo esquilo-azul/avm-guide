@@ -30,8 +30,8 @@ Exemplos:
 - https://github.com/esquilo-azul/avm-tools.git (Um repositório Git);
 - `/home/myuser/projects/avm-redmine` (Código-fonte no sistema de arquivos local).
 
-[#app-inst]
-== Instância de aplicação [app-inst]
+[#instance]
+== Instância de aplicação [instance]
 
 Uma cópia funcional e bem identificada do produto gerado pela construção da aplicação.
 
