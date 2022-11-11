@@ -1,12 +1,4 @@
-:stylesheet: adoc-colony.css
-
-= Guia AVM =
-Eduardo H. Bogoni <eduardobogoni@gmail.com>
-:Author Initials: EHB
-:toc: left
-:icons:
-:numbered:
-:website: https://avm.esquiloazul.com.br
+//#header
 
 == Aplicações
 
