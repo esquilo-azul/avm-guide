@@ -1,5 +1,3 @@
-//#header
-
 [#application]
 == Aplicação [application]
 
