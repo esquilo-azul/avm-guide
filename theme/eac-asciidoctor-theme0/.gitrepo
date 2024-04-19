@@ -1,0 +1,7 @@
+[subrepo]
+  cmdver = 0.4.1
+  commit = 6dba36f8d42416d37f7aed5262ec55c66bd96bfc
+  method = merge
+  parent = aa792b6a8dca368429c99b973d42eb3a509cb7ac
+  branch = master
+  remote = ssh://git@redmine.esquiloazul.com.br/eac-asciidoctor-theme0.git
