@@ -1,0 +1,14 @@
+Codificação de caracteres:: UTF-8 sem https://en.wikipedia.org/wiki/Byte_order_mark[BOM].
+Quebra de linhas:: Unix.
+
+Um arquivo deve ter tamanho zero ou o formato abaixo:
+
+[source, Text]
+....
+<TEXTO><QUEBRA_DE_LINHA>
+....
+
+* `+<TEXTO>+` deve ter o primeiro e último caractere não branco.
+* `+<QUEBRA_DE_LINHA>+` é `+\n+``.
+
+A identação é de dois espaço. Não use caráter de tabulação (*`+\t+`*).
