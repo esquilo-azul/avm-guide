@@ -1,0 +1,64 @@
+== Livro do Git
+
+Formatos:
+
+EPUB:: link:pass:[./_media/Pro Git - professional version control - Scott Chacon.epub][Pro Git - professional version control - Scott Chacon.epub]
+PDF:: link:pass:[./_media/Pro Git - professional version control - Scott Chacon.pdf][Pro Git - professional version control - Scott Chacon.pdf]
+
+*Nota:* esta é a edição da versão 1 e recomendada aqui porque está totalmente traduzida para português. Para uma edição bem mais recente - mas pouco traduzida para português - acesse https://git-scm.com/book/pt-br/v2.
+
+== Conteúdo obrigatório
+
+. Capítulo *Primeiros passos*;
+. Capítulo *Git Essencial*;
+. Exercício *CLONE_PUSH_HTTPS*;
+. Exercício *CLONE PUSH SSH*;
+. Capítulo *Ramificação (Branching) no Git*;
+. Seção *Reescrevendo o histórico* do capítulo *Ferramentas do Git* (Pg. 226 em link:pass:[./_media/Pro Git - professional version control - Scott Chacon.pdf][Pro Git - professional version control - Scott Chacon.pdf]);
+. Exercício *REWRITE_HISTORY*.
+
+== Conteúdo opcional - mas muito útil
+
+* Seção *Fazendo Stash* do capítulo *Ferramentas do Git*;
+* Seção *Seleção de Revisão* do capítulo *Ferramentas do Git*;
+* Seção *Área de seleção interativa* do capítulo *Ferramentas do Git*;
+* Capítulo https://git-scm.com/book/pt-br/v2/Funcionamento-Interno-do-Git-Encanamento-e-Porcelana[Funcionamento Interno do Git].
+
+== Exercícios
+
+=== CLONE_PUSH_HTTPS
+
+. Crie uma conta pessoal em https://github.com ou https://gitlab.com/explore;
+. Crie um repositório (Projeto) e o clone com a URL HTTPS.
+. Envie ao menos um commit a esse repositório - você deve usar seu Git local e não as funcionalidades web da plataforma.
+
+=== CLONE_PUSH_SSH
+
+Realize o mesmo do exercício CLONE_PUSH_HTTPS, mas utilizando SSH em vez de HTTPS.
+
+=== REWRITE_HISTORY
+
+. Clone o repositório contido em link:pass:[./_media/git-rebase-exercise_bare-repository.tar.gz][git-rebase-exercise_bare-repository.tar.gz];
+. Reorganize os commits da branch *`+master+`* de forma que:
+.. Os commits de inclusão de nomes estejam ordenados pelo nome que incluem;
+.. Não haja inclusão de nomes grafados incorretamente;
+.. Os arquivos devem seguir link:pass:[../../../definicao/fontes/formato_geral_text_plain/index.html][Formato geral para text/plain] em todos os commits;
+.. A autoria original dos (Nome, email, data/hora) seja mantida.
+. Faça o push para o repositório clonado de forma que o branch
+*`+master+`* aponte para as modificações do passo 2.
+
+Nota: link:pass:[./_media/git-rebase-exercise_bare-repository.tar.gz][git-rebase-exercise_bare-repository.tar.gz] é um repositório a ser utilizado como remoto. Exemplo:
+
+[source, Shell]
+....
+tar -xzf git-rebase-exercise_bare-repository.tar.gz # Descompacta para "git-rebase-exercise_bare-repository"
+git clone git-rebase-exercise_bare-repository git-rebase-exercise_copia
+....
+
+E então operar a partir de *`+git-rebase-exercise_copia+`*. Para entregar o resultado compacte *`+git-rebase-exercise_bare-repository+`* e o envie.
+
+==== Gabarito
+
+A situação inicial (*`+gitk --all+`*) esperada em *`+git-rebase-exercise_copia+`* é link:pass:[./_media/git-rebase-exercise_situacao-inicial.png][git-rebase-exercise_situacao-inicial.png].
+
+O resultado final esperado é link:pass:[./_media/git-rebase-exercise_resultado-esperado.png][git-rebase-exercise_resultado-esperado.png] e link:pass:[./_media/nomes.utf8.txt][nomes.utf8.txt].
